@@ -3,6 +3,7 @@
         "articleListTitle": "Articles",
         "loadingMessage": "Loading...",
         "errorMessage": "An error occurred. Please try again.",
+        "close": "Close",
         "by": "By",
         "userId": "User ID"
 

@@ -25,6 +25,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "appTitle": MessageLookupByLibrary.simpleMessage("Articles App"),
         "articleListTitle": MessageLookupByLibrary.simpleMessage("Articles"),
         "by": MessageLookupByLibrary.simpleMessage("By"),
+        "close": MessageLookupByLibrary.simpleMessage("Close"),
         "errorMessage": MessageLookupByLibrary.simpleMessage(
             "An error occurred. Please try again."),
         "loadingMessage": MessageLookupByLibrary.simpleMessage("Loading..."),

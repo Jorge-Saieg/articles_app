@@ -26,8 +26,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Aplicación de Artículos"),
         "articleListTitle": MessageLookupByLibrary.simpleMessage("Artículos"),
         "by": MessageLookupByLibrary.simpleMessage("Por"),
+        "close": MessageLookupByLibrary.simpleMessage("Cerrar"),
         "errorMessage": MessageLookupByLibrary.simpleMessage(
-            "Ocurrió un error. Por favor, inténtalo de nuevo."),
+            "Ocurrió un error. Por favor, inténte mas tarde."),
         "loadingMessage": MessageLookupByLibrary.simpleMessage("Cargando..."),
         "userId": MessageLookupByLibrary.simpleMessage("Usuario N˚")
       };

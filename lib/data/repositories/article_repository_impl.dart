@@ -16,7 +16,11 @@ class ArticleRepositoryImpl implements ArticleRepository {
       await localDataSource.cacheArticles(remoteArticles);
       return remoteArticles;
     } catch (e) {
-      return localDataSource.getCachedArticles();
+      final localArticles = localDataSource.getCachedArticles();
+      if (localArticles.isEmpty) {
+        rethrow;
+      }
+      return localArticles;
     }
   }
 

@@ -67,7 +67,27 @@ class ArticleListPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(S.of(context).errorMessage),
-                Text('(${state.message})'),
+                IconButton(
+                    icon: const Icon(Icons.info_outline_rounded),
+                    iconSize: 20, // Tamaño del ícono
+                    onPressed: () {
+                      showDialog(
+                          context: context,
+                          builder: (BuildContext context) {
+                            return AlertDialog(
+                              title: const Text('⚠️', textAlign: TextAlign.center),
+                              content: Text(state.message, textAlign: TextAlign.center),
+                              actions: <Widget>[
+                                TextButton(
+                                  child: Text(S.of(context).close),
+                                  onPressed: () {
+                                    Navigator.of(context).pop();
+                                  },
+                                ),
+                              ],
+                            );
+                          });
+                    }),
               ],
             ));
           }
