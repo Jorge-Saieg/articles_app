@@ -1,0 +1,9 @@
+  {
+        "appTitle": "Aplicación de Artículos",
+        "articleListTitle": "Artículos",
+        "loadingMessage": "Cargando...",
+        "errorMessage": "Ocurrió un error. Por favor, inténtalo de nuevo.",
+        "by": "Por",
+        "userId": "Usuario N˚"
+
+      }
