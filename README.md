@@ -1,4 +1,4 @@
-# Posts App
+# Articles App
 
 Esta es una aplicación Flutter que muestra una lista de artículos y permite a los usuarios ver los detalles de cada artículo. La aplicación implementa las mejores prácticas de arquitectura limpia y utiliza el patrón BLoC para la gestión del estado.
 
